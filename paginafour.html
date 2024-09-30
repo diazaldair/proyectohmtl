@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 4</title>
+    <link rel="stylesheet" href="paginafour.css">
+</head>
+<body>
+    <!--<table> define una tabla.-->
+    <table>
+        <!--<thead> define el bloque de encabezado de una tabla-->
+        <thead>
+            <!--<tr> define una fila en una tabla, agrupando celdas de datos (<td>) o celdas de encabezado (<th>).-->
+            <tr>
+                <!--<th> define una celda de encabezado en una tabla, con texto en negrita y centrado-->
+                <th colspan="4">Información de Estudiantes</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Grado</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+<!--<tbody> define el cuerpo de una tabla, agrupando las filas de datos (<tr>). Se utiliza para organizar visualmente el contenido de la tabla-->
+        <tbody>
+            <tr>
+<!--rowspan en HTML se utiliza en la etiqueta <td> o <th> para especificar cuántas filas debe abarcar una celda en una tabla.-->
+    <!--<td> define una celda de datos en una tabla-->
+                <td rowspan="2">María</td>
+                <td>20</td>
+                <td>2do Año</td>
+                <td>Sevilla</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>3er Año</td>
+                <td>Sevilla</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>19</td>
+                <td>1er Año</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>22</td>
+                <td>Graduada</td>
+                <td>Valencia</td>
+            </tr>
+        </tbody>
+        <!--<tfoot> define el bloque de pie de una tabla-->
+        <tfoot>
+            <tr>
+     <!--colspan en HTML se utiliza en la etiqueta <td> o <th> para especificar cuántas columnas debe abarcar una celda en una tabla.-->
+                <td colspan="4">Fin de la Tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

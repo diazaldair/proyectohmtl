@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center; /* Centra las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a múltiples filas */
+}
+
+.imagen {
+    width: 300px; /* Ancho de las imágenes */
+    margin: 10px; /* Espaciado entre imágenes */
+    border: 2px solid #ccc; /* Borde alrededor de las imágenes */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de las imágenes */
+}

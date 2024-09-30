@@ -1,0 +1,50 @@
+estilos4.css
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+#header{
+    padding: 15px;
+    background-color: rgb(147, 71, 71);
+    color: white;
+    grid-column: 1/4;
+}
+#aside-left{
+    grid-column: 1 / 2;
+    padding: 15px;
+    background-color: rgb(81, 65, 144);
+    color: white;
+}
+#aside-rigth{
+    grid-column: 3 / 4;
+    padding: 15px;
+    background-color: rgb(231, 9, 9);
+    color: white;
+}
+#main{
+    grid-column: 2 / 3;
+    padding: 15px;
+    background-color: rgb(255, 225, 0);
+    color: white;
+}
+#footer{
+    grid-column: 1 / 4;
+    padding: 15px;
+    background-color: rgb(21, 0, 255);
+    color: white;
+}
+.keyword{
+    font-size: 1.3em;
+    color: rgb(47, 255, 0);
+    /* border: 5px dashed green; */
+}
